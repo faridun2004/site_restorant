@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    image-rendering: auto;
+}
+
+.dish {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.dish h2 {
+    margin-top: 0;
+}
+
+.dish p {
+    margin: 5px 0;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
